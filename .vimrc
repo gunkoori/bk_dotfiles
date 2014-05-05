@@ -10,7 +10,6 @@ set backspace=2		" more powerful backspacing
 
 syntax enable
 "syntax on
-colorscheme molokai
 
 "行番号の表示
 set number
@@ -44,7 +43,7 @@ set shiftwidth=4
 
 "タブ、空白、改行の表示
 set list
-set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
 
 "全角スペースをハイライト表示
 function! ZenkakuSpace()
