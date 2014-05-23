@@ -100,6 +100,7 @@ if has('vim_starting')
 		NeoBundle 'Shougo/vimfiler'
 		NeoBundle 'Shougo/unite.vim'
 		NeoBundle 'bling/vim-airline'
+        NeoBundle 'Yggdroot/indentLine'
 
 	    " Color Scheme
 		NeoBundle 'tomasr/molokai'
